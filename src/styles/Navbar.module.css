@@ -1,0 +1,17 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.089);
+  height: 70px;
+}
+nav .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}

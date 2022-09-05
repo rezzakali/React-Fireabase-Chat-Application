@@ -1,0 +1,39 @@
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.295);
+  width: 500px;
+  padding: 25px;
+  border-radius: 6px;
+  margin: auto;
+}
+input {
+  margin: 10px auto;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+button {
+  font-size: 19px;
+  padding: 7px 10px;
+  text-decoration: none;
+  border: 1px solid rgba(0, 0, 0, 0.226);
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(127, 255, 212, 0);
+  color: #551a8b;
+}
+@media screen and (max-width: 768px) {
+  form {
+    width: 200px;
+  }
+}
